@@ -1,0 +1,57 @@
+* {
+  font-family: "Share Tech Mono", monospace;
+}
+div {
+  display: block;
+}
+#companyStory {
+  width: 45%;
+  margin-left: 15px;
+}
+.message__body {
+  background-color: #1e181e;
+  border: 1px solid #fed33f;
+  border-radius: 3px;
+  color: #fed33f;
+  padding: 0.75rem;
+  padding-bottom: 0;
+  width: 45%;
+}
+#compBody {
+  background-image: linear-gradient(rgb(151, 39, 39), black);
+}
+
+.storyContainer {
+
+  min-width: 200px;
+  /* margin: auto; */
+
+}
+.storyContainer div {
+  margin-top: 50px;
+}
+.section-title {
+  font-size: 24px;
+  width: 50%;
+  margin: auto;
+  letter-spacing: 0.02em;
+  color: #fed33f !important;
+  outline: 1px solid #fed33f;
+  border-radius: 3px;
+  background-color: #1e181e !important;
+  padding: 10px !important;
+}
+
+#contact {
+  background-color: black;
+}
+.compBg {
+  background-image: url(../images/compBg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 400 0px;
+}
+.webDevs{
+  width: 300px;
+  margin: auto;
+}

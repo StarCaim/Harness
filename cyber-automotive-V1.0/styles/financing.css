@@ -1,0 +1,83 @@
+.background{
+    background-image: linear-gradient(rgb(151, 39, 39), black);
+}
+.financing-title{
+    font-size: 24px;
+    width: 100%;
+    margin: 20px auto;
+    letter-spacing: .02em;
+    color: #fed33f !important;
+    outline: 1px solid #fed33f;
+    border-radius: 3px;
+    background-color: #1e181e !important;
+    padding: 10px  !important;
+    padding-left: 25px  !important;
+    text-transform:uppercase;
+    text-align: left;
+}
+.contain{
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+}
+.bigField{
+    width: 250px;
+}
+.tinyField{
+    width: 50%;
+    margin: auto;
+}
+.button-title{
+    text-align: left;
+}
+label{
+    margin-top: 20px;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+    color: rgba(6, 238, 255, 1);
+    background-color: #2be4ea;
+    opacity: 1;
+    display: block;
+    /* background: url(https://mywildalberta.ca/images/GFX-MWA-Parks-Reservations.png) no-repeat; */
+    width: 20px;
+    height: 20px;
+    border-width: thin;
+    border-radius: 25%;
+}
+details > summary{
+    list-style-type: "+ ";
+}
+details[open] > summary{
+    list-style-type: "- ";
+}
+.background-black {
+    background-color: black;
+}
+.dropCenter{
+    margin: auto;
+    margin-bottom: 10px;
+}
+.dropBorder{
+    border: #fed33f 1px solid;
+    margin: auto;
+    margin-top: 0;
+    width: 99%;
+}
+#insuranceInfo{
+    margin-bottom: 0;
+}
+#otherInfo{
+    resize: none;
+    height: 200px;
+}
+#finSubmit{
+    margin-top: 20px;
+}
+fieldset div {
+    min-width: fit-content;
+    justify-content: center;
+    text-align: center;
+}
+div .minor-textbox {
+    width: 100% !important;
+}

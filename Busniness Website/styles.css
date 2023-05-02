@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+}
+body {
+  background-color: #0F1626;
+  z-index: 1;
+}
+/* start of navigation bar */
+#navbar img {
+  display: inline;
+  width: 12%;
+  height: auto;
+  margin: 15px 44% 0 44%;
+  position: fixed;
+  z-index: 9998;
+}
+.topnav {
+  background-color: #0f1626;
+  /* overflow: hidden; */
+  height: 12%;
+  position: fixed;
+  width: 100%;
+  z-index: 9997;
+}
+.topnav a {
+  color: #f5f5f5;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 2.5vw;
+  margin-top: 1%;
+  width: 5%;
+  font-family: Arial, Helvetica, sans-serif;
+  float: left;
+}
+.topnav #left {
+  float: left;
+}
+.topnav #right {
+  float: right;
+}
+.one {
+  margin-left: 15%;
+}
+.two {
+  margin-left: 6%;
+}
+.three {
+  margin-right: 6%;
+}
+.four {
+  margin-right: 15%;
+}
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+  font-size: 2.5vw;
+  margin-top: 1%;
+  z-index: 9999;
+}
+.topnav a:hover,
+.dropdown:hover .dropbtn {
+  color: #ff533d;
+  text-decoration: underline;
+}
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 2.5vw;
+  border: none;
+  outline: none;
+  color: #f5f5f5;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: Arial, Helvetica, sans-serif; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+  z-index: 9999;
+}
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #0f1626;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 9999;
+  overflow: hidden;
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: #f5f5f5;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  z-index: 9999;
+  font-size: 1.5vw;
+  width: 100%;
+}
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+  z-index: 9999;
+}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+  z-index: 9999;
+}
+
+/* responsive */
+
+/* end of navigation bar */
+
+/* start of header */
+#myVideo {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  min-height: 100%;
+  min-width: 100%;
+  object-fit: fill;
+}
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgb(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+/* Shop sections */
+main.products {
+  background-image: linear-gradient(#0F1626, #AB987A);
+}
+ul.products li, li img {
+  width: 33%;
+  min-width: 300px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  margin-top: 10%;
+  font-size: 20px;
+  border-radius: 50px;
+}
+@media screen and (max-width: 800px) {
+  ul.products li, li img {
+    width: 90%;
+  }
+}
+header.products {
+  height: 90vh;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+header.products img {
+  object-fit: fill;
+  max-height: 100%;
+  min-width: 100%;
+  position: fixed;
+  z-index: -1;
+}
+header h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 9vw;
+  color: white;
+  background-color: black;
+  width: auto;
+  white-space: nowrap;
+}
+ul p {
+  color: #f1f1f1;
+}
+.products button { 
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: #f5f5f5;
+  background-color: #0F1626;
+  text-align: center;
+  cursor: pointer;
+  width: 50%;
+  font-size: 18px;
+  width: auto;
+  border-radius: 25px;
+}
+
+/* contact */
+input[type=text], textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  position: absolute;
+  width: 20%;
+  margin: 10% 40%;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h4 {
+  font-size: 4vw;
+  padding: 10px;
+  color: #f5f5f5;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main.contact{
+  background-image: url(./images/contact_bg.jpeg);
+  background-size: cover;
+  min-height: 150vh;
+  
+}
+
+/* Start of Footer */
+footer{
+  position: relative;
+  bottom: 0;
+  top: 0;
+  height: 2.5rem;
+  width: 100%;
+  background-color: #0F1626;
+  text-align: center;
+  min-height: 35vh;
+}
+footer h1 {
+  font-size: 2rem;
+  color: #f1f1f1;
+}
+footer h6 {
+  font-size: 1rem;
+  display: block;
+  color: #f1f1f1;
+  margin: 10px;
+}
+p.about {
+  margin: 5% 10%;
+  color: #f5f5f5;
+  font-size: 1.7rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-indent: 10%;
+}

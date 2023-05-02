@@ -1,0 +1,229 @@
+.vehiclePageTitle {
+  background-image: linear-gradient(rgb(151, 39, 39), black);
+  padding: 200px 0;
+}
+
+.idk {
+  background-color: rgb(255, 255, 255);
+  color: #fed33f !important;
+  outline: 1px solid #fed33f;
+  background-color: #1e181e !important;
+
+}
+
+.vehiclePageTitle li {
+  font-size: 15px;
+}
+
+li.active {
+  color: rgb(175, 175, 175) !important;
+}
+
+.price {
+  text-align: right;
+}
+.vehicle-box {
+  border-radius: 0 !important;
+  background-color: #1e181e !important;
+  border: 1px solid #5d2322 !important;
+  color: #2be4ea !important;
+  box-shadow: 0 0 6px 2px rgba(255, 0, 0, 0.5);
+  padding: 30px;
+  margin: auto;
+  margin-top: 20px;
+}
+.vehicle-box div {
+  justify-content: center;
+  margin: 20px auto
+}
+.box-spacers {
+  margin-top: 20px;
+}
+img.demo {
+  width: 100% !important;
+}
+div .column {
+  margin: 0 !important;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+.spec-div {
+  background: url(../images/tag_bg.png);
+  background-repeat: no-repeat;
+  border-bottom: 2px solid #ea3e4a;
+  background-size: 40% 100%!important;
+  color: #ea3e4a;
+  font-family: 'Play',sans-serif;
+  margin-bottom: 0.375rem !important;
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 25px 0;
+  padding: 0.625rem 0;
+  box-sizing: border-box;
+  vertical-align: middle;
+  height: 60px;
+  padding-left: 10px;
+  text-align: center;
+  /* margin-right: 0.375rem !important; */
+}
+.spec-label {
+  font-size: 80%;
+  width: 35%;
+  font-weight: normal;
+  /* margin: 0.125rem 0 -0.125rem 0; */
+  margin: auto;
+  flex-shrink: 0;
+  display: inline;
+  padding-right: 0.375rem;
+  box-sizing: border-box;
+  text-align: left;
+  text-transform: uppercase;
+  text-align: center;
+}
+.spec-value {
+  width: 65%;
+  text-align: right;
+}
+img.field-value-icon {
+  height: 30px;
+  width: auto;
+  vertical-align: middle;
+  margin-right: 0.625rem;
+  
+}
+h2.inline {
+  display: inline;
+}
+#price {
+  margin-left: 20px;
+  margin-right: 5px;
+}
+h2#original-price {
+  text-decoration: line-through !important;
+  font-size: 20px;
+}
+
+#breadName {
+  text-transform: uppercase;
+}
+.fuel-economy-label {
+  text-align: center;
+  color: #ea3e4a;
+  width: 60%;
+  margin: 20px auto;
+}
+#fuel {
+  width: 40px;
+  margin-top: 5px;
+}
+.underline {
+  text-decoration: underline;
+}
+.v-info {
+  border: 2px solid #ea3e4a;
+}
+.v-info-title {
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+  background-color: #ea3e4a;
+  width: 100%;
+  height: 50px;
+  margin-top: 0 !important;
+}
+.vehicle-data {
+  padding: 10px;
+}
+.cb-btn {
+  width: 80% !important;
+}
+
+
+
